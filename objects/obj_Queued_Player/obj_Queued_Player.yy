@@ -30,6 +30,7 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"player_num","filters":[],"listItems":[],"multiselect":false,"name":"player_num","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"player_color","filters":[],"listItems":[],"multiselect":false,"name":"player_color","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$000000FF","varType":7,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
