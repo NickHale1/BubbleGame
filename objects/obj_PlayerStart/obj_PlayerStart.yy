@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Lobby",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_PlayerStart",
+  "eventList":[],
   "managed":true,
-  "name":"obj_Lobby",
+  "name":"obj_PlayerStart",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
