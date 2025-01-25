@@ -4,6 +4,7 @@ xsp = 0;
 ysp = 0;
 vaxis = 0;
 haxis = 0;
+playerIndex = obj_game.nextAvailControl;
 controllerId = obj_game.nextAvailControl;
 
 paddle_angle_increment = 3;

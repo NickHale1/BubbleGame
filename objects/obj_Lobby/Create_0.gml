@@ -1,6 +1,6 @@
 xPos = [400, 400, 1000, 1000];
 yPos = [200, 600, 200, 600];
-
+global.score = [0,0,0,0]
 nextPlayerNum = 0;
 
 for(i = 0; i < 4; i++) {
