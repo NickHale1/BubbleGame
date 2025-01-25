@@ -4,6 +4,7 @@ xsp = 0;
 ysp = 0;
 vaxis = 0;
 haxis = 0;
+controllerId = obj_game.nextAvailControl;
 
 //generic multipler so we can update the movement speed easily
 movespeed = 3;
@@ -14,4 +15,3 @@ paddle_angle = 0;
 
 paddle = instance_create_layer(x+10,y,"Instances", obj_paddle);
 
-gamepad_set_axis_deadzone(0, 0.1);
