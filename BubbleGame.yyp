@@ -35,6 +35,7 @@
   "name":"BubbleGame",
   "resources":[
     {"id":{"name":"TestObj","path":"objects/TestObj/TestObj.yy",},},
+    {"id":{"name":"TestObj2","path":"objects/TestObj2/TestObj2.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "resourceType":"GMProject",
