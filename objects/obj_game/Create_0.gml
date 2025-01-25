@@ -4,13 +4,20 @@ for(i = 0; i < 4; i++) {
 		player_spawn = instance_find(obj_PlayerStart, i )
 		nextAvailControl = i;
 		currPlayer = instance_create_layer(player_spawn.x, player_spawn.y, "Instances", obj_Player);
-		if (i == 0) {
-			currPlayer.image_blend = c_blue;
-		} else if (i == 1) {
-			currPlayer.image_blend = c_red;
-		} else if (i == 2) {
-			currPlayer.image_blend = c_white
-		} else if (i == 3) {
-			currPlayer.image_blend = c_green
+	
+		switch (i) {
+			case 0:
+				currPlayer.image_blend = c_blue;
+				break;
+			case 1:
+				currPlayer.image_blend = c_red;
+				break;
+			case 2:
+				currPlayer.image_blend = c_white;
+				break;
+			case 3:
+				currPlayer.image_blend = c_green;
+				break;
 		}
+	}
 }
