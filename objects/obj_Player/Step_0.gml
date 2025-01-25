@@ -4,29 +4,29 @@
 
 if keyboard_check(ord("W"))
 {
-	ysp = -1;	
+	ysp = -1* movespeed;	
 }
 if keyboard_check(ord("S"))
 {
-	ysp = 1;	
+	ysp = 1 * movespeed;	
 }
 if(!keyboard_check(ord("W")) && !keyboard_check(ord("S")))
 {
-	ysp = 0;	
+	ysp = 0 * movespeed;	
 }
 
 
 if keyboard_check(ord("D"))
 {
-	xsp = 1;	
+	xsp = 1 *movespeed;	
 }
 if keyboard_check(ord("A"))
 {
-	xsp = -1;	
+	xsp = -1 *movespeed;	
 }
 if(!keyboard_check(ord("D")) && !keyboard_check(ord("A")))
 {
-	xsp = 0;	
+	xsp = 0* movespeed;	
 }
 
 
