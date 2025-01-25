@@ -61,6 +61,7 @@
     {"id":{"name":"spr_powerup_multi","path":"sprites/spr_powerup_multi/spr_powerup_multi.yy",},},
     {"id":{"name":"spr_Projectile","path":"sprites/spr_Projectile/spr_Projectile.yy",},},
     {"id":{"name":"spr_Solid","path":"sprites/spr_Solid/spr_Solid.yy",},},
+    {"id":{"name":"Sprite7","path":"sprites/Sprite7/Sprite7.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
