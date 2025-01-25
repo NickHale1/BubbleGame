@@ -8,6 +8,9 @@ for(i = 0; i < 4; i++) {
 			currPlayer.image_blend = c_blue;
 		} else if (i == 1) {
 			currPlayer.image_blend = c_red;
+		} else if (i == 2) {
+			currPlayer.image_blend = c_white
+		} else if (i == 3) {
+			currPlayer.image_blend = c_green
 		}
-	}
 }
