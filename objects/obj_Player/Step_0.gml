@@ -34,6 +34,6 @@ vaxis = gamepad_axis_value(0, gp_axislv);
 //direction = point_direction(0, 0, haxis, vaxis);
 //speed = point_distance(0 ,0, haxis, vaxis) * 5;
 
- move_and_collide(haxis * move_speed, vaxis * move_speed, obj_Solid);
+ move_and_collide(haxis * movespeed, vaxis * movespeed, obj_Solid);
 
 
