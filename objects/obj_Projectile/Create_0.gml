@@ -1,1 +1,1 @@
-motion_set(200, 4);
+motion_set(200, 6);

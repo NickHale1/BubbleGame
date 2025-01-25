@@ -8,4 +8,10 @@ haxis = 0;
 //generic multipler so we can update the movement speed easily
 movespeed = 3;
 
+haxis_paddle = 0;
+vaxis_paddle = 0;
+paddle_angle = 0;
+
+paddle = instance_create_layer(x+10,y,"Instances", obj_paddle);
+
 gamepad_set_axis_deadzone(0, 0.1);

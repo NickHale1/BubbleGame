@@ -2,32 +2,6 @@
 // You can write your code in this editor
 
 
-//if keyboard_check(ord("W"))
-//{
-//	ysp = -1* movespeed;	
-//}
-//if keyboard_check(ord("S"))
-//{
-//	ysp = 1 * movespeed;	
-//}
-//if(!keyboard_check(ord("W")) && !keyboard_check(ord("S")))
-//{
-//	ysp = 0 * movespeed;	
-//}
-
-
-//if keyboard_check(ord("D"))
-//{
-//	xsp = 1 *movespeed;	
-//}
-//if keyboard_check(ord("A"))
-//{
-//	xsp = -1 *movespeed;	
-//}
-//if(!keyboard_check(ord("D")) && !keyboard_check(ord("A")))
-//{
-//	xsp = 0* movespeed;	
-//}
 
 haxis = gamepad_axis_value(0, gp_axislh);
 vaxis = gamepad_axis_value(0, gp_axislv);
@@ -35,5 +9,17 @@ vaxis = gamepad_axis_value(0, gp_axislv);
 //speed = point_distance(0 ,0, haxis, vaxis) * 5;
 
  move_and_collide(haxis * movespeed, vaxis * movespeed, obj_Solid);
+
+
+haxis_paddle = gamepad_axis_value(0, gp_axisrh);
+vaxis_paddle = gamepad_axis_value(0, gp_axisrv);
+var paddle_joystick_angle = point_direction(0, 0, haxis_paddle, vaxis_paddle);
+if (haxis_paddle != 0 and vaxis_paddle != 0 ) {
+	paddle_angle = paddle_joystick_angle;
+}
+paddle.image_angle = paddle_angle;
+paddle.x = x
+paddle.y = y
+
 
 
