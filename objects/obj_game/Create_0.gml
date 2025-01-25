@@ -4,5 +4,10 @@ for(i = 0; i < 4; i++) {
 		player_spawn = instance_find(obj_PlayerStart, i )
 		nextAvailControl = i;
 		currPlayer = instance_create_layer(player_spawn.x, player_spawn.y, "Instances", obj_Player);
+		if (i == 0) {
+			currPlayer.image_blend = c_blue;
+		} else if (i == 1) {
+			currPlayer.image_blend = c_red;
+		}
 	}
 }
