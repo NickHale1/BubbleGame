@@ -34,9 +34,10 @@
   },
   "name":"BubbleGame",
   "resources":[
-    {"id":{"name":"TestObj","path":"objects/TestObj/TestObj.yy",},},
+    {"id":{"name":"Solid","path":"objects/Solid/Solid.yy",},},
     {"id":{"name":"TestObj2","path":"objects/TestObj2/TestObj2.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
