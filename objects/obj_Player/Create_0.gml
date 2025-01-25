@@ -6,6 +6,9 @@ vaxis = 0;
 haxis = 0;
 controllerId = obj_game.nextAvailControl;
 
+paddle_angle_increment = 3;
+// Theoretically deadzone should be bigger than increment to avoid getting stuck
+paddle_angle_deadzone = 2.5;
 
 //powerup enum
 enum powerups {
