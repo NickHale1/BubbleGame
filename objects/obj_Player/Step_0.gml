@@ -7,8 +7,13 @@ haxis = gamepad_axis_value(controllerId, gp_axislh);
 vaxis = gamepad_axis_value(controllerId, gp_axislv);
 //direction = point_direction(0, 0, haxis, vaxis);
 //speed = point_distance(0 ,0, haxis, vaxis) * 5;
+var diagnolModifier = 1;
+if(haxis!= 0 && vaxis !=0){
+	diagnolModifier = 0.707
+}
 
- move_and_collide(haxis * movespeed, vaxis * movespeed, obj_Solid);
+ move_and_collide((haxis * movespeed)*diagnolModifier, (vaxis * movespeed) * diagnolModifier, obj_Solid);
+
 
 
 haxis_paddle = gamepad_axis_value(controllerId, gp_axisrh);
