@@ -1,3 +1,1 @@
-speed = 4;
-direction = 45;
-
+motion_set(200, 4);
