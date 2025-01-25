@@ -4,7 +4,7 @@ for (var i = 0; i < gamepad_get_device_count(); i++)
 		global.players[i] = true;	
 		instance_create_layer(100, 200 * (1+i), "Instances", obj_Queued_Player);
 	}
-	if gamepad_button_check_pressed(i, gp_start) {
+	if gamepad_button_check_pressed(i, gp_start) && global.players[i] {
 		room_goto(Room1);	
 	}
 }
