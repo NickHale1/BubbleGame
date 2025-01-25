@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"TestObj",
+  "%Name":"Solid",
   "eventList":[],
   "managed":true,
-  "name":"TestObj",
+  "name":"Solid",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprite1",
+    "path":"sprites/Sprite1/Sprite1.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
