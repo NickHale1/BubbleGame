@@ -26,6 +26,7 @@
     {"name":"obj_Player","order":1,"path":"objects/obj_Player/obj_Player.yy",},
     {"name":"obj_powerup_multi","order":5,"path":"objects/obj_powerup_multi/obj_powerup_multi.yy",},
     {"name":"obj_Projectile","order":2,"path":"objects/obj_Projectile/obj_Projectile.yy",},
+    {"name":"obj_Queued_Player","order":10,"path":"objects/obj_Queued_Player/obj_Queued_Player.yy",},
     {"name":"room_Lobby","order":2,"path":"rooms/room_Lobby/room_Lobby.yy",},
     {"name":"room_Menu","order":1,"path":"rooms/room_Menu/room_Menu.yy",},
     {"name":"spr_Button","order":5,"path":"sprites/spr_Button/spr_Button.yy",},
