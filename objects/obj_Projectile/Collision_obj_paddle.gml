@@ -6,7 +6,8 @@ if(!on_cooldown){
 	on_cooldown = true;
 	alarm[0] = .3 *60;
 	move_bounce_all(false);
-	image_blend = other.associated_Player.image_blend	
+	image_blend = other.associated_Player.image_blend
+	projectileOwner = other.associated_Player
 
 	if(other.associated_Player.active_powerup == powerups.Multi)
 	{
@@ -19,12 +20,14 @@ if(!on_cooldown){
 		new_projectile.on_cooldown = true;
 		new_projectile.alarm[0] = .3*60;
 		new_projectile.image_blend = image_blend;
+		new_projectile.projectileOwner = projectileOwner
 		new_projectile = instance_create_layer(x,y,"Instances", obj_Projectile);
 		new_projectile.direction = direction -10;
 		new_projectile.speed = max_speed;
 		new_projectile.on_cooldown=true;
 		new_projectile.alarm[0] = .3*60;
 		new_projectile.image_blend = image_blend;
+		new_projectile.projectileOwner = projectileOwner
 	}
 	
 	

@@ -1,7 +1,4 @@
-
-if (livingPlayers == 1)
+if (livingPlayers < 2)
 {
 	room_goto(room_NextLevel);
 }
-
-
