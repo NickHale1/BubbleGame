@@ -1,3 +1,6 @@
-nextAvailControl = 0;
-gamepad_set_axis_deadzone(0, 0.1);
-gamepad_set_axis_deadzone(1, 0.1);
+for(i = 0; i < 4; i++) {
+	if global.players[i] {
+		nextAvailControl = i;
+		currPlayer = instance_create_layer(100 * (1+i), 200, "Instances", obj_Player);
+	}
+}
