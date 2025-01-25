@@ -15,7 +15,7 @@ enum powerups {
 active_powerup = powerups.None;
 
 //generic multipler so we can update the movement speed easily
-movespeed = 3;
+movespeed = 8;
 
 haxis_paddle = 0;
 vaxis_paddle = 0;

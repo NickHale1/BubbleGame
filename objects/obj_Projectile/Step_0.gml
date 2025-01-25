@@ -1,11 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-if(speed - .05 < 0)
+show_debug_message("Steppin");
+if(speed - decel < min_speed)
 {
-	speed = 0;
+	speed = min_speed;
 } else
 {
-	speed = speed - .05;
+	speed = speed - decel;
 }
 
