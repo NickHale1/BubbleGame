@@ -1,1 +1,1 @@
-motion_set(200, 6);
+motion_set(random(360), 6);
