@@ -8,10 +8,14 @@ if(!on_cooldown){
 
 	if(other.associated_Player.active_powerup == powerups.Multi)
 	{
-	var new_projectile = instance_create_layer(x,y,"Instances", obj_Projectile);
-	new_projectile.direction = direction +10;
-	new_projectile = instance_create_layer(x,y,"Instances", obj_Projectile);
-	new_projectile.direction = direction -10;
+		var new_projectile = instance_create_layer(x,y,"Instances", obj_Projectile);
+		new_projectile.direction = direction +10;
+		new_projectile.on_cooldown = true;
+		new_projectile.alarm[0] = .3*60;
+		new_projectile = instance_create_layer(x,y,"Instances", obj_Projectile);
+		new_projectile.direction = direction -10;
+		new_projectile.on_cooldown=true;
+		new_projectile.alarm[0] = .3*60;
 	
 	}
 }
