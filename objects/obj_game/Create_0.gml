@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 livingPlayers = 0;
-
+totalPlayers = 0;
 for(i = 0; i < 4; i++) {
 	if global.players[i] {
 		
@@ -27,6 +27,22 @@ for(i = 0; i < 4; i++) {
 		}
 
 		livingPlayers +=1;
+		totalPlayers += 1;
 
 	}
+}
+
+function getSurvivalScore() {
+	var playersOutlasted = totalPlayers - livingPlayers;
+	switch (playersOutlasted) {
+		case 0:
+			return 0;
+		case 1:
+			return 1;
+		case 2:
+			return 3;
+		case 3:
+			return 5;
+	}
+	
 }
