@@ -48,8 +48,8 @@
     {"name":"spr_Player","order":1,"path":"sprites/spr_Player/spr_Player.yy",},
     {"name":"spr_powerup_multi","order":4,"path":"sprites/spr_powerup_multi/spr_powerup_multi.yy",},
     {"name":"spr_Projectile","order":2,"path":"sprites/spr_Projectile/spr_Projectile.yy",},
-    {"name":"spr_Solid_Circle","order":7,"path":"sprites/spr_Solid_Circle/spr_Solid_Circle.yy",},
     {"name":"spr_score","order":7,"path":"sprites/spr_score/spr_score.yy",},
+    {"name":"spr_Solid_Circle","order":7,"path":"sprites/spr_Solid_Circle/spr_Solid_Circle.yy",},
     {"name":"Sprite7","order":6,"path":"sprites/Sprite7/Sprite7.yy",},
   ],
 }
