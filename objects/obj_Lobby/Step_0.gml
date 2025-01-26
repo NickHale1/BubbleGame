@@ -1,6 +1,6 @@
 for (var i = 0; i < gamepad_get_device_count(); i++)
 {
-    if gamepad_button_check_pressed(i, gp_face1) {
+    if gamepad_button_check_pressed(i, gp_face1) && i < 4 {
 		for(j = 0; j < 4; j++) {
 			if !global.players[j].player_active {
 				global.players[j].player_active = true; // setting active
