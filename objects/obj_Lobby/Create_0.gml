@@ -5,6 +5,8 @@ global.activeControllers = [-1, -1, -1, -1];
 global.colorsArray = [c_red, c_blue, c_green, c_yellow, c_aqua, c_fuchsia, c_lime];
 global.testRoom = NeopolitanV;
 
+// Reset global.winningPlayer here to avoid sticky crown
+
 global.colorOccupied = [0, 0, 0, 0, 0, 0, 0];
 nextPlayerNum = 0;
 badMatch = false;
