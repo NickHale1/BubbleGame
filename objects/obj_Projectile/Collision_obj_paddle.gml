@@ -16,12 +16,19 @@ if(!on_cooldown){
 	move_bounce_all(false);
 	image_blend = other.associated_Player.image_blend;
 	projectileOwner = other.associated_Player.playerIndex;
-	
+	//dont go over top speed
 	if( speed + accel > max_speed)
 	{
 		speed = max_speed;
 	} else {
-		speed = speed + accel;
+		//always go faster than the player that hit it
+		if (speed+accel < other.associated_Player.movespeed){
+			speed = other.associated_Player.movespeed + accel;
+		}
+		else {
+			speed = speed + accel;
+		}
+		
 	}
 	
 	if(other.associated_Player.active_powerup == powerups.Multi)
