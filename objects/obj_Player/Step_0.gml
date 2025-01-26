@@ -12,7 +12,7 @@ if(haxis!= 0 && vaxis !=0){
 	diagnolModifier = 0.707
 }
 
-move_and_collide((haxis * movespeed)*diagnolModifier, (vaxis * movespeed) * diagnolModifier, obj_Solid);
+move_and_collide((haxis * movespeed)*diagnolModifier, (vaxis * movespeed) * diagnolModifier, obj_PlayerCollisionObject);
 
 //========================
 // Paddle movement logic

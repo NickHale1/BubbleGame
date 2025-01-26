@@ -3,6 +3,9 @@ yPos = [200, 600, 200, 600];
 global.score = [0,0,0,0]
 global.playerColors = [0, 1, 2, 3];
 global.colorsArray = [c_red, c_blue, c_green, c_yellow, c_aqua, c_fuchsia, c_lime];
+
+global.testRoom = lmaoo;
+
 nextPlayerNum = 0;
 
 
