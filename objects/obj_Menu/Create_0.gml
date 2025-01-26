@@ -1,5 +1,7 @@
 global.colorsArray = [c_red, c_blue, c_green, c_yellow, c_aqua, c_fuchsia, c_lime, c_orange, c_teal];
 
+window_set_caption("Bubble Bash");
+
 for(i = 0; i < 4; i++) {
 	global.players[i] = 
 	{
