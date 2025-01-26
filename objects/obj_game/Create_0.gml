@@ -3,13 +3,13 @@
 livingPlayers = 0;
 totalPlayers = 0;
 for(i = 0; i < 4; i++) {
-	if global.players[i] {
+	if global.players[i].player_active {
 		
 		gamepad_set_axis_deadzone(i, 0.1);
 		var player_spawn = instance_find(obj_PlayerStart, i )
 		nextAvailControl = i;
 		currPlayer = instance_create_layer(player_spawn.x, player_spawn.y, "Instances", obj_Player);
-		currPlayer.image_blend = global.colorsArray[global.playerColors[i]];
+		currPlayer.image_blend = global.colorsArray[global.players[i].player_color];
 		// switch statement to assign players
 
 		livingPlayers +=1;

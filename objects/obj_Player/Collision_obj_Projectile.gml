@@ -5,9 +5,9 @@ if (other.image_blend == image_blend) {
 } else {
 	
 	if (other.projectileOwner != -1) {
-		global.score[other.projectileOwner] +=1;
+		global.players[other.projectileOwner].player_current_score +=1;
 	}
-	global.score[playerIndex] += obj_game.getSurvivalScore();
+	global.players[playerIndex].player_current_score += obj_game.getSurvivalScore();
 	obj_game.livingPlayers -= 1;
 	
 	// Check if this player died with multi powerup, and spawn a new one if so
