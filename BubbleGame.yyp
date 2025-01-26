@@ -35,6 +35,7 @@
   "name":"BubbleGame",
   "resources":[
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
+    {"id":{"name":"fnt_scoreboard","path":"fonts/fnt_scoreboard/fnt_scoreboard.yy",},},
     {"id":{"name":"obj_Button_Lobby","path":"objects/obj_Button_Lobby/obj_Button_Lobby.yy",},},
     {"id":{"name":"obj_Button_Menu","path":"objects/obj_Button_Menu/obj_Button_Menu.yy",},},
     {"id":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},},
@@ -44,6 +45,7 @@
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},},
     {"id":{"name":"obj_Lobby","path":"objects/obj_Lobby/obj_Lobby.yy",},},
     {"id":{"name":"obj_Menu","path":"objects/obj_Menu/obj_Menu.yy",},},
+    {"id":{"name":"obj_nextLevel","path":"objects/obj_nextLevel/obj_nextLevel.yy",},},
     {"id":{"name":"obj_paddle","path":"objects/obj_paddle/obj_paddle.yy",},},
     {"id":{"name":"obj_Player_Score_Body","path":"objects/obj_Player_Score_Body/obj_Player_Score_Body.yy",},},
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},},

@@ -1,0 +1,1 @@
+player_index = obj_nextLevel.nextPlayer;
