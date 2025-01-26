@@ -7,7 +7,7 @@ for (var i = 0; i < gamepad_get_device_count(); i++)
 		}
 	}
 	if gamepad_button_check_pressed(i, gp_start) { // && global.players[i] {
-		room_goto(Room1);	
+		room_goto(choose(Room2,Room2));	
 	}
 	
 	if gamepad_button_check_pressed(i, gp_shoulderr){
