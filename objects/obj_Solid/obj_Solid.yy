@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_Solid",
-    "path":"sprites/spr_Solid/spr_Solid.yy",
+    "name":"spr_Solid_Prismarine",
+    "path":"sprites/spr_Solid_Prismarine/spr_Solid_Prismarine.yy",
   },
   "spriteMaskId":null,
   "visible":true,
