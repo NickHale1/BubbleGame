@@ -24,7 +24,6 @@
     {"name":"obj_Button_Play","order":7,"path":"objects/obj_Button_Play/obj_Button_Play.yy",},
     {"name":"obj_Button_Quit","order":8,"path":"objects/obj_Button_Quit/obj_Button_Quit.yy",},
     {"name":"obj_Button_Restart","order":12,"path":"objects/obj_Button_Restart/obj_Button_Restart.yy",},
-    {"name":"obj_ControllerButton","order":21,"path":"objects/obj_ControllerButton/obj_ControllerButton.yy",},
     {"name":"obj_game","order":3,"path":"objects/obj_game/obj_game.yy",},
     {"name":"obj_Hollow_Circle","order":18,"path":"objects/obj_Hollow_Circle/obj_Hollow_Circle.yy",},
     {"name":"obj_Lobby","order":9,"path":"objects/obj_Lobby/obj_Lobby.yy",},
