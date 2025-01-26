@@ -11,6 +11,9 @@ if matchComplete
 	
 }
 
-draw_text_color(room_width/2, 100, TopText, c_navy, c_navy, c_black, c_black, 1);
+draw_set_halign(fa_center); // horizontal center
+//draw_set_valign(fa_middle); // vertical center
 
-draw_text_color(room_width/2, room_height - 100, BottomText, c_navy, c_navy, c_black, c_black, 1);
+draw_text_transformed_color(room_width/2, 50, TopText, 2, 2, 0, c_navy, c_navy, c_black, c_black, 1);
+
+draw_text_transformed_color(room_width/2, room_height - 85, BottomText, 1.5, 1.5, 0, c_navy, c_navy, c_black, c_black, 1);
