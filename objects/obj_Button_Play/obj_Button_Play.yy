@@ -7,7 +7,7 @@
   "managed":true,
   "name":"obj_Button_Play",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},"propertyId":{"name":"button_text","path":"objects/obj_button_parent/obj_button_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Play",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},"propertyId":{"name":"button_text","path":"objects/obj_button_parent/obj_button_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Press A to Start",},
   ],
   "parent":{
     "name":"Objects",
@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Button",
-    "path":"sprites/spr_Button/spr_Button.yy",
+    "name":"spr_Button_Blue",
+    "path":"sprites/spr_Button_Blue/spr_Button_Blue.yy",
   },
   "spriteMaskId":null,
   "visible":true,

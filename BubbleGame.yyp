@@ -82,6 +82,7 @@
     {"id":{"name":"Strip","path":"rooms/Strip/Strip.yy",},},
     {"id":{"name":"spr_Background","path":"sprites/spr_Background/spr_Background.yy",},},
     {"id":{"name":"spr_Bubble","path":"sprites/spr_Bubble/spr_Bubble.yy",},},
+    {"id":{"name":"spr_Button_Blue","path":"sprites/spr_Button_Blue/spr_Button_Blue.yy",},},
     {"id":{"name":"spr_Button","path":"sprites/spr_Button/spr_Button.yy",},},
     {"id":{"name":"spr_Crown","path":"sprites/spr_Crown/spr_Crown.yy",},},
     {"id":{"name":"spr_HollowCircle","path":"sprites/spr_HollowCircle/spr_HollowCircle.yy",},},
