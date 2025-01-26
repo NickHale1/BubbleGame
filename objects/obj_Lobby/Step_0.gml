@@ -29,7 +29,9 @@ for (var i = 0; i < gamepad_get_device_count(); i++)
 			}
 		}
 		if !badMatch {
-			room_goto(global.testRoom);	
+			room_goto(choose(Basic, Clover, Dogbone, Domino_Five, Dominos, Donut, 
+			Donut_Circle, Football, FourCorners, FourCorners_Circle, lmaoo, MathSymbols,
+			NeopolitanH, NeopolitanV, PictureFrame, Rink, Spade, Strip));	
 		}
 	}
 //gamepad_button_check(controllerId, gp_shoulderl);
