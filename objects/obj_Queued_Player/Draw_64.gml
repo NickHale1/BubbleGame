@@ -4,10 +4,10 @@ draw_set_font(fnt_menu);
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 
-if gamepad_is_connected(player_num) && !global.players[player_num] {
+if gamepad_is_connected(player_num) && !global.players[player_num].player_active {
 	draw_text(x, y, "Press A to play");
 }
-if !gamepad_is_connected(player_num) && !global.players[player_num] {
+if !gamepad_is_connected(player_num) && !global.players[player_num].player_active {
 	draw_text(x, y, "Connect Controller");	
 }
 

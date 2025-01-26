@@ -27,6 +27,7 @@
     {"name":"obj_Lobby","order":9,"path":"objects/obj_Lobby/obj_Lobby.yy",},
     {"name":"obj_Menu","order":14,"path":"objects/obj_Menu/obj_Menu.yy",},
     {"name":"obj_paddle","order":4,"path":"objects/obj_paddle/obj_paddle.yy",},
+    {"name":"obj_Player_Score_Body","order":15,"path":"objects/obj_Player_Score_Body/obj_Player_Score_Body.yy",},
     {"name":"obj_Player","order":1,"path":"objects/obj_Player/obj_Player.yy",},
     {"name":"obj_PlayerStart","order":11,"path":"objects/obj_PlayerStart/obj_PlayerStart.yy",},
     {"name":"obj_powerup_multi","order":5,"path":"objects/obj_powerup_multi/obj_powerup_multi.yy",},
@@ -40,6 +41,7 @@
     {"name":"spr_Player","order":1,"path":"sprites/spr_Player/spr_Player.yy",},
     {"name":"spr_powerup_multi","order":4,"path":"sprites/spr_powerup_multi/spr_powerup_multi.yy",},
     {"name":"spr_Projectile","order":2,"path":"sprites/spr_Projectile/spr_Projectile.yy",},
+    {"name":"spr_score","order":7,"path":"sprites/spr_score/spr_score.yy",},
     {"name":"Sprite7","order":6,"path":"sprites/Sprite7/Sprite7.yy",},
   ],
 }

@@ -6,7 +6,7 @@ vaxis = 0;
 haxis = 0;
 
 playerIndex = obj_game.nextAvailControl;
-controllerId = obj_game.nextAvailControl;
+controllerId = global.players[playerIndex].controller_id;
 
 paddle_angle_increment = 3;
 // Theoretically deadzone should be bigger than increment to avoid getting stuck
