@@ -4,8 +4,8 @@ if (other.image_blend == image_blend) {
 	
 } else {
 	
-	if (other.projectileOwner != 0) {
-		global.score[other.projectileOwner.playerIndex] +=1;
+	if (other.projectileOwner != -1) {
+		global.score[other.projectileOwner] +=1;
 	}
 	global.score[playerIndex] += obj_game.getSurvivalScore();
 	obj_game.livingPlayers -= 1;

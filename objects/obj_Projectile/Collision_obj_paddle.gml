@@ -6,8 +6,8 @@ if(!on_cooldown){
 	on_cooldown = true;
 	alarm[0] = .3 *60;
 	move_bounce_all(false);
-	image_blend = other.associated_Player.image_blend
-	projectileOwner = other.associated_Player
+	image_blend = other.associated_Player.image_blend;
+	projectileOwner = other.associated_Player.playerIndex;
 
 	if(other.associated_Player.active_powerup == powerups.Multi)
 	{

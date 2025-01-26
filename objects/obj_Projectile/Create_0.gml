@@ -3,7 +3,7 @@ default_speed = 6;
 max_speed = 20;
 decel = 0.03;
 
-projectileOwner = 0;
+projectileOwner = -1;
 
 motion_set(random(360), default_speed);
 
