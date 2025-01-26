@@ -12,8 +12,9 @@ for (var i = 0; i < gamepad_get_device_count(); i++)
 			playerActive = true;
 		}
 	}
-	if gamepad_button_check_pressed(i, gp_start) { 
-		room_goto(Room1);	
+	if gamepad_button_check_pressed(i, gp_start) { // && global.players[i] {
+		room_goto(choose(FourCorners,FourCorners));	
+
 	}
 //gamepad_button_check(controllerId, gp_shoulderl);
 }
