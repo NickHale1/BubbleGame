@@ -59,6 +59,7 @@
     {"name":"room_NextLevel","order":3,"path":"rooms/room_NextLevel/room_NextLevel.yy",},
     {"name":"Spade","order":18,"path":"rooms/Spade/Spade.yy",},
     {"name":"Strip","order":5,"path":"rooms/Strip/Strip.yy",},
+    {"name":"spr_Background","order":12,"path":"sprites/spr_Background/spr_Background.yy",},
     {"name":"spr_Bubble","order":11,"path":"sprites/spr_Bubble/spr_Bubble.yy",},
     {"name":"spr_Button","order":5,"path":"sprites/spr_Button/spr_Button.yy",},
     {"name":"spr_Crown","order":8,"path":"sprites/spr_Crown/spr_Crown.yy",},
