@@ -17,6 +17,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"fnt_scoreboard","order":1,"path":"fonts/fnt_scoreboard/fnt_scoreboard.yy",},
     {"name":"obj_Button_Lobby","order":13,"path":"objects/obj_Button_Lobby/obj_Button_Lobby.yy",},
     {"name":"obj_Button_Menu","order":11,"path":"objects/obj_Button_Menu/obj_Button_Menu.yy",},
     {"name":"obj_button_parent","order":6,"path":"objects/obj_button_parent/obj_button_parent.yy",},
@@ -27,6 +28,7 @@
     {"name":"obj_Hollow_Circle","order":18,"path":"objects/obj_Hollow_Circle/obj_Hollow_Circle.yy",},
     {"name":"obj_Lobby","order":9,"path":"objects/obj_Lobby/obj_Lobby.yy",},
     {"name":"obj_Menu","order":14,"path":"objects/obj_Menu/obj_Menu.yy",},
+    {"name":"obj_nextLevel","order":16,"path":"objects/obj_nextLevel/obj_nextLevel.yy",},
     {"name":"obj_paddle","order":4,"path":"objects/obj_paddle/obj_paddle.yy",},
     {"name":"obj_Player_Score_Body","order":15,"path":"objects/obj_Player_Score_Body/obj_Player_Score_Body.yy",},
     {"name":"obj_Player","order":1,"path":"objects/obj_Player/obj_Player.yy",},
