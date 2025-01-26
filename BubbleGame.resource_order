@@ -74,6 +74,7 @@
     {"name":"spr_Pwer_Multi","order":14,"path":"sprites/spr_Pwer_Multi/spr_Pwer_Multi.yy",},
     {"name":"spr_score","order":7,"path":"sprites/spr_score/spr_score.yy",},
     {"name":"spr_Solid_Circle","order":7,"path":"sprites/spr_Solid_Circle/spr_Solid_Circle.yy",},
+    {"name":"spr_Solid_Prismarine","order":15,"path":"sprites/spr_Solid_Prismarine/spr_Solid_Prismarine.yy",},
     {"name":"Sprite11","order":9,"path":"sprites/Sprite11/Sprite11.yy",},
     {"name":"Sprite7","order":6,"path":"sprites/Sprite7/Sprite7.yy",},
   ],
