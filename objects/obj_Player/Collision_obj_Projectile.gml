@@ -15,6 +15,8 @@ if (other.image_blend == image_blend) {
 		obj_game.alarm[2] = 2 * 60;
 	}
 	
+	effect_create_above(ef_firework, x, y, 1.0, global.colorsArray[global.players[playerIndex].player_color]);
+	
 	instance_destroy(other);
 	instance_destroy(paddle);
 	instance_destroy();
