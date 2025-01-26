@@ -19,6 +19,7 @@
   "height":32,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"4f2503d2-8dda-4d19-962d-2841f09398d0","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"4f2503d2-8dda-4d19-962d-2841f09398d0","opacity":8.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"2ddbb8d6-cd7a-4053-9bc3-60eca0423888","blendMode":0,"displayName":"default","isLocked":false,"name":"2ddbb8d6-cd7a-4053-9bc3-60eca0423888","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_Solid_Prismarine",
