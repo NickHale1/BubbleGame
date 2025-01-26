@@ -46,6 +46,7 @@
     {"id":{"name":"obj_Hollow_Circle","path":"objects/obj_Hollow_Circle/obj_Hollow_Circle.yy",},},
     {"id":{"name":"obj_Lobby","path":"objects/obj_Lobby/obj_Lobby.yy",},},
     {"id":{"name":"obj_Menu","path":"objects/obj_Menu/obj_Menu.yy",},},
+    {"id":{"name":"obj_Menububbles","path":"objects/obj_Menububbles/obj_Menububbles.yy",},},
     {"id":{"name":"obj_nextLevel","path":"objects/obj_nextLevel/obj_nextLevel.yy",},},
     {"id":{"name":"obj_paddle","path":"objects/obj_paddle/obj_paddle.yy",},},
     {"id":{"name":"obj_Player_Score_Body","path":"objects/obj_Player_Score_Body/obj_Player_Score_Body.yy",},},

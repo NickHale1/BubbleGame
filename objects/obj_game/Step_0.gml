@@ -10,6 +10,6 @@ if (!instance_exists(obj_Projectile) and alarm[gameAlarms.SpawnProjectile] < 0) 
 	
 	alarm[gameAlarms.SpawnProjectile] = 1* 60;
 	nextProjectileSpawner = instance_find(obj_ProjectileSpawner, random(instance_number(obj_ProjectileSpawner)));
-	nextProjectileSpawner.sprite_index = spr_ProjectileSpawner_Ready
+	nextProjectileSpawner.sprite_index = spr_Projectile;
 	nextProjectileSpawner.visible = true;
 }
