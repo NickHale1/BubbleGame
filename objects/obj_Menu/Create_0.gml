@@ -19,8 +19,35 @@ enum winCons{
 global.activeWinCon =
 {
 	type: winCons.Rounds,
-	value: 5,
+	value: 10,
+	typeString: "Max Rounds",
+	
+	
 
+}
+
+
+
+global.changeWinConType = function () {
+	if(global.activeWinCon.type == winCons.Rounds){
+		global.activeWinCon.type = winCons.Score;
+		global.activeWinCon.value = 50;
+		global.activeWinCon.typeString = "Target Score";
+	
+	}
+	else if(global.activeWinCon.type == winCons.Score){
+		global.activeWinCon.type = winCons.Rounds;
+		global.activeWinCon.value = 10;
+		global.activeWinCon.typeString = "Max Rounds";
+	
+	}
+}
+
+global.changeWinConValue = function() {
+	var newValue = global.activeWinCon.value + 5;
+	if (newValue > 50) {newValue = 5};
+	global.activeWinCon.value = newValue
+	
 }
 
 global.winningPlayer = -1;

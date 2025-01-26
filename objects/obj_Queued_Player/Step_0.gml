@@ -18,3 +18,11 @@
 		global.players[player_num].player_color = colorIndex;
 		player_color = global.colorsArray[colorIndex];
 	}
+	if(gamepad_button_check_pressed(global.players[player_num].controller_id , gp_face3))
+	{
+		global.changeWinConType();
+	}
+	if(gamepad_button_check_pressed(global.players[player_num].controller_id , gp_face4))
+	{
+		global.changeWinConValue();
+	}
