@@ -21,6 +21,7 @@ for (var i = 0; i < gamepad_get_device_count(); i++)
 		}
 	}
 	if gamepad_button_check_pressed(i, gp_start) { // && global.players[i] {
+
 		badMatch = false;
 		for(j = 0; j < array_length(global.colorOccupied); j++) {
 			if global.colorOccupied[j] > 1 {
@@ -28,7 +29,7 @@ for (var i = 0; i < gamepad_get_device_count(); i++)
 			}
 		}
 		if !badMatch {
-			room_goto(choose(FourCorners,FourCorners));	
+			room_goto(global.getRandomMap());	
 		}
 	}
 //gamepad_button_check(controllerId, gp_shoulderl);

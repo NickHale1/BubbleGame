@@ -1,8 +1,13 @@
 xPos = [400, 400, 1000, 1000];
 yPos = [200, 600, 200, 600];
+global.totalRoundsPlayed = 0;
 global.activeControllers = [-1, -1, -1, -1];
-global.colorsArray = [c_red, c_blue, c_green, c_yellow, c_aqua, c_fuchsia, c_lime];
-global.colorOccupied = [0, 0, 0, 0, 0, 0, 0];
+global.colorsArray = [c_red, c_blue, c_green, c_yellow, c_aqua, c_fuchsia, c_lime, c_orange, c_teal];
+global.testRoom = NeopolitanV;
+
+// Reset global.winningPlayer here to avoid sticky crown
+
+global.colorOccupied = [0, 0, 0, 0, 0, 0, 0,0,0];
 nextPlayerNum = 0;
 badMatch = false;
 

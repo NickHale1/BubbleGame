@@ -18,6 +18,16 @@ for(i = 0; i < 4; i++) {
 	}
 }
 
+
+enum gameAlarms {
+	GoToNextRoom,
+	SpawnProjectile,
+	SpawnMultiPowerup,
+}
+
+
+nextProjectileSpawner = 0;
+
 function getSurvivalScore() {
 	var playersOutlasted = totalPlayers - livingPlayers;
 	switch (playersOutlasted) {

@@ -18,7 +18,10 @@
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_PlayerCollisionObject",
+    "path":"objects/obj_PlayerCollisionObject/obj_PlayerCollisionObject.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -41,8 +44,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Player",
-    "path":"sprites/spr_Player/spr_Player.yy",
+    "name":"spr_Bubble",
+    "path":"sprites/spr_Bubble/spr_Bubble.yy",
   },
   "spriteMaskId":null,
   "visible":true,
