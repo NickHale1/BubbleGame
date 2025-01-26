@@ -7,7 +7,7 @@ var BottomText = "Press A to continue to the next round";
 if matchComplete
 {
 	TopText = "P" + string(global.winningPlayer+1) + " wins!";
-	BottomText = "Press A to return to menu";
+	BottomText = "Press A to return to lobby";
 	
 }
 
