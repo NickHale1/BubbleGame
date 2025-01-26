@@ -19,7 +19,7 @@ if (other.image_blend == image_blend) {
 	}
 	
 	effect_create_above(ef_firework, x, y, 1.0, global.colorsArray[global.players[playerIndex].player_color]);
-	
+	audio_play_sound(bubble_pop, 1, false);
 	instance_destroy(other);
 	instance_destroy(paddle);
 	instance_destroy();

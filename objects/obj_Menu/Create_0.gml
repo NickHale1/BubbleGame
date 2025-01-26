@@ -37,5 +37,7 @@ global.getRandomMap = function()
 //	return Basic;
 }
 
+audio_play_sound(snd_bg_music, 0.2, true);
+
 
 	

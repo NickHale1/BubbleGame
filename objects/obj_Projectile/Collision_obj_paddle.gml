@@ -3,6 +3,8 @@
 
 // Set cooldown false if hitting different paddle than the most
 //    recent one to hit it
+
+audio_play_sound(snd_ball_tap, 1.0, false);
 if (on_cooldown and projectileOwner != other.associated_Player) {
 	on_cooldown = false;
 	
