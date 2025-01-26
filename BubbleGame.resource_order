@@ -35,6 +35,7 @@
     {"name":"room_Lobby","order":2,"path":"rooms/room_Lobby/room_Lobby.yy",},
     {"name":"room_Menu","order":1,"path":"rooms/room_Menu/room_Menu.yy",},
     {"name":"room_NextLevel","order":3,"path":"rooms/room_NextLevel/room_NextLevel.yy",},
+    {"name":"Room2","order":4,"path":"rooms/Room2/Room2.yy",},
     {"name":"spr_Button","order":5,"path":"sprites/spr_Button/spr_Button.yy",},
     {"name":"spr_paddle","order":3,"path":"sprites/spr_paddle/spr_paddle.yy",},
     {"name":"spr_Player","order":1,"path":"sprites/spr_Player/spr_Player.yy",},
