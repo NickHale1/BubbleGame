@@ -1,7 +1,10 @@
 //var survival_scores = [-1, 5, 3, 1, 0]
 
 if (other.image_blend == image_blend) {
-	
+	with(other) 
+	{
+		move_bounce_all(false);
+	}
 } else {
 	
 	if (other.projectileOwner != -1) {

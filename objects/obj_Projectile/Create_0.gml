@@ -1,7 +1,8 @@
-min_speed = 5;
+min_speed = 4;
 default_speed = 6;
 max_speed = 20;
-decel = 0.03;
+decel = 0.02;
+accel = 3;
 
 projectileOwner = -1;
 

@@ -5,8 +5,11 @@ if (livingPlayers < 2)
 	room_goto(room_NextLevel);
 }
 
-if !instance_exists(obj_Projectile) {
+if (!instance_exists(obj_Projectile) and alarm[gameAlarms.SpawnProjectile] < 0) {
 	
-	var spawner = instance_find(obj_ProjectileSpawner, random(instance_number(obj_ProjectileSpawner)));
-	instance_create_layer(spawner.x, spawner.y, "Instances", obj_Projectile);
+	
+	alarm[gameAlarms.SpawnProjectile] = 1* 60;
+	nextProjectileSpawner = instance_find(obj_ProjectileSpawner, random(instance_number(obj_ProjectileSpawner)));
+	nextProjectileSpawner.sprite_index = spr_ProjectileSpawner_Ready
+	nextProjectileSpawner.visible = true;
 }

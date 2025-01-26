@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_powerup_multi",
-    "path":"sprites/spr_powerup_multi/spr_powerup_multi.yy",
+    "name":"spr_Pwer_Multi",
+    "path":"sprites/spr_Pwer_Multi/spr_Pwer_Multi.yy",
   },
   "spriteMaskId":null,
   "visible":true,
