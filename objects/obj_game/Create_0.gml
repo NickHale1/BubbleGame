@@ -9,22 +9,8 @@ for(i = 0; i < 4; i++) {
 		var player_spawn = instance_find(obj_PlayerStart, i )
 		nextAvailControl = i;
 		currPlayer = instance_create_layer(player_spawn.x, player_spawn.y, "Instances", obj_Player);
-	
+		currPlayer.image_blend = global.colorsArray[global.playerColors[i]];
 		// switch statement to assign players
-		switch (i) {
-			case 0:
-				currPlayer.image_blend = c_blue;
-				break;
-			case 1:
-				currPlayer.image_blend = c_red;
-				break;
-			case 2:
-				currPlayer.image_blend = c_white;
-				break;
-			case 3:
-				currPlayer.image_blend = c_green;
-				break;
-		}
 
 		livingPlayers +=1;
 		totalPlayers += 1;
