@@ -79,6 +79,7 @@
     {"id":{"name":"room_NextLevel","path":"rooms/room_NextLevel/room_NextLevel.yy",},},
     {"id":{"name":"Spade","path":"rooms/Spade/Spade.yy",},},
     {"id":{"name":"Strip","path":"rooms/Strip/Strip.yy",},},
+    {"id":{"name":"spr_Bubble","path":"sprites/spr_Bubble/spr_Bubble.yy",},},
     {"id":{"name":"spr_Button","path":"sprites/spr_Button/spr_Button.yy",},},
     {"id":{"name":"spr_Crown","path":"sprites/spr_Crown/spr_Crown.yy",},},
     {"id":{"name":"spr_HollowCircle","path":"sprites/spr_HollowCircle/spr_HollowCircle.yy",},},

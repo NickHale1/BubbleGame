@@ -44,8 +44,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Player",
-    "path":"sprites/spr_Player/spr_Player.yy",
+    "name":"spr_Bubble",
+    "path":"sprites/spr_Bubble/spr_Bubble.yy",
   },
   "spriteMaskId":null,
   "visible":true,
