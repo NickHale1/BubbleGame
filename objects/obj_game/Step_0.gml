@@ -6,5 +6,7 @@ if (livingPlayers < 2)
 }
 
 if !instance_exists(obj_Projectile) {
-	instance_create_layer(room_width/2, room_height/2, "Instances", obj_Projectile);
+	
+	var spawner = instance_find(obj_ProjectileSpawner, random(instance_number(obj_ProjectileSpawner)));
+	instance_create_layer(spawner.x, spawner.y, "Instances", obj_Projectile);
 }
