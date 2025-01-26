@@ -9,7 +9,7 @@ draw_set_valign(fa_middle);
 
 
 
-draw_text(x, y + 50, "+" + string(increase));
+draw_text(x, y + 110, "+" + string(increase));
 
 draw_text(x, y + 150, "Score: " + string(current_score));
 
