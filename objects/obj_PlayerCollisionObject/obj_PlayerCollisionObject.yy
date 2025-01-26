@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Solid",
+  "%Name":"obj_PlayerCollisionObject",
   "eventList":[],
   "managed":true,
-  "name":"obj_Solid",
+  "name":"obj_PlayerCollisionObject",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_PlayerCollisionObject",
-    "path":"objects/obj_PlayerCollisionObject/obj_PlayerCollisionObject.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -29,11 +26,8 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
-  "spriteId":{
-    "name":"spr_Solid",
-    "path":"sprites/spr_Solid/spr_Solid.yy",
-  },
+  "solid":false,
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

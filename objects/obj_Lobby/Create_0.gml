@@ -3,6 +3,8 @@ yPos = [200, 600, 200, 600];
 global.totalRoundsPlayed = 0;
 global.activeControllers = [-1, -1, -1, -1];
 global.colorsArray = [c_red, c_blue, c_green, c_yellow, c_aqua, c_fuchsia, c_lime];
+global.testRoom = lmaoo;
+
 global.colorOccupied = [0, 0, 0, 0, 0, 0, 0];
 nextPlayerNum = 0;
 badMatch = false;
