@@ -1,9 +1,43 @@
 global.totalRoundsPlayed += 1;
 
-if winConMet(){
-	//display some wincon shit	
+
+function winConMet()
+{
+	
+	switch(global.activeWinCon.type)
+	{
+		case winCons.Rounds:
+			if(global.totalRoundsPlayed >= global.activeWinCon.value)
+			{
+				var highScore = -1;
+				var winner = -1;
+				for (i = 0; i < 4; i++) {
+					if (global.players[i].player_active and global.players[i].player_current_score > highScore) {
+						winner = i;
+						highScore = global.players[i].player_current_score;
+					}
+				}
+				global.winningPlayer = winner;
+				return true;	
+			}
+			return false;
+			
+		case winCons.Score:
+			for (i = 0; i < 4; i++) {
+				if (global.players[i].player_active and global.players[i].player_current_score >= global.activeWinCon.value) {
+					global.winningPlayer = i;
+					return true;
+				}
+			}
+			return false;	
+	
+	}
 	
 }
+
+
+matchComplete = winConMet();
+
 
 
 

@@ -17,36 +17,15 @@ enum winCons{
 global.activeWinCon =
 {
 	type: winCons.Rounds,
-	value: 10,
+	value: 2,
 
 }
+
+global.winningPlayer = -1;
 
 global.totalRoundsPlayed = -1;
 
 
-function winConMet()
-{
-	
-	switch(global.activeWinCon.type)
-	{
-		case winCons.Rounds:
-		
-			if(true)
-			{
-				return true;	
-			}
-			return false;
-		case winCons.Score:
-			for (i = 0; i < 4; i++) {
-				if (global.player[i].player_active and global.player[i].player_current_score >= global.activeWinCon.value) {
-					return true;
-				}
-			}
-			return false;
-		
-	
-	}
-	
-}
+
 
 	
