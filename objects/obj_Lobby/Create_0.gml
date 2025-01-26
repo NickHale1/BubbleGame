@@ -14,6 +14,7 @@ for(i = 0; i < 4; i++) {
 		global.activeControllers[i] = global.players[i].controller_id;
 		global.players[i].player_current_score = 0;
 		global.players[i].player_prev_score = 0;
+		global.colorOccupied[global.players[i].player_color]++;
 	}
 	
 	if global.players[i].player_active && !playerActive{
