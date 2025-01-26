@@ -29,10 +29,10 @@ global.totalRoundsPlayed = -1;
 
 global.getRandomMap = function() 
 {
- return choose(Basic, Clover, Dogbone, Domino_Five, Dominos, Donut, 
+	return choose(Basic, Clover, Dogbone, Domino_Five, Dominos, Donut, 
 			Donut_Circle, Football, FourCorners, FourCorners_Circle, lmaoo, MathSymbols,
 			NeopolitanH, NeopolitanV, PictureFrame, Rink, Spade, Strip)	
-
+//	return Basic;
 }
 
 
