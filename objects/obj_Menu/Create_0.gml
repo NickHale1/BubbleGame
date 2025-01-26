@@ -17,7 +17,7 @@ enum winCons{
 global.activeWinCon =
 {
 	type: winCons.Rounds,
-	value: 10,
+	value: 1,
 
 }
 

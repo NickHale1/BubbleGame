@@ -7,12 +7,12 @@
 
 draw_self();
 
-draw_sprite_ext(spr_Player, 0, x, y, 1.0, 1.0, 0, global.colorsArray[global.players[player_index].player_color], 1);
+draw_sprite_ext(spr_Bubble, 0, x, y, 3.0, 3.0, 0, global.colorsArray[global.players[player_index].player_color], 1);
 
 
 
 if(player_index == global.winningPlayer)
 {
-	draw_sprite(spr_Crown , 0 , x, y-10);
+	draw_sprite_ext(spr_Crown , 0 , x, y, 3.0, 3.0,0, c_white, 1);
 		
 }
