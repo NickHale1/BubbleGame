@@ -61,7 +61,6 @@
     {"id":{"name":"FourCorners","path":"rooms/FourCorners/FourCorners.yy",},},
     {"id":{"name":"Neopolitan","path":"rooms/Neopolitan/Neopolitan.yy",},},
     {"id":{"name":"PictureFrame","path":"rooms/PictureFrame/PictureFrame.yy",},},
-    {"id":{"name":"room_","path":"rooms/room_/room_.yy",},},
     {"id":{"name":"room_Lobby","path":"rooms/room_Lobby/room_Lobby.yy",},},
     {"id":{"name":"room_Menu","path":"rooms/room_Menu/room_Menu.yy",},},
     {"id":{"name":"room_NextLevel","path":"rooms/room_NextLevel/room_NextLevel.yy",},},
@@ -91,7 +90,6 @@
     {"roomId":{"name":"Neopolitan","path":"rooms/Neopolitan/Neopolitan.yy",},},
     {"roomId":{"name":"PictureFrame","path":"rooms/PictureFrame/PictureFrame.yy",},},
     {"roomId":{"name":"Donut_Circle","path":"rooms/Donut_Circle/Donut_Circle.yy",},},
-    {"roomId":{"name":"room_","path":"rooms/room_/room_.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

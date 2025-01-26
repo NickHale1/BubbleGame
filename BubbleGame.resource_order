@@ -41,7 +41,6 @@
     {"name":"FourCorners","order":4,"path":"rooms/FourCorners/FourCorners.yy",},
     {"name":"Neopolitan","order":8,"path":"rooms/Neopolitan/Neopolitan.yy",},
     {"name":"PictureFrame","order":9,"path":"rooms/PictureFrame/PictureFrame.yy",},
-    {"name":"room_","order":11,"path":"rooms/room_/room_.yy",},
     {"name":"room_Lobby","order":2,"path":"rooms/room_Lobby/room_Lobby.yy",},
     {"name":"room_Menu","order":1,"path":"rooms/room_Menu/room_Menu.yy",},
     {"name":"room_NextLevel","order":3,"path":"rooms/room_NextLevel/room_NextLevel.yy",},
