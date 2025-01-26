@@ -29,7 +29,7 @@ paddle_angle = 0;
 paddle = instance_create_layer(x+10,y,"Instances", obj_paddle);
 paddle.associated_Player = id
 
-var scale_factor = 2;
+var scale_factor = 1.25;
 
 image_xscale = scale_factor;
 image_yscale = scale_factor;
