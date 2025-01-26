@@ -11,6 +11,6 @@ if matchComplete
 	
 }
 
-draw_text(room_width/2, 100, TopText);
+draw_text_color(room_width/2, 100, TopText, c_navy, c_navy, c_black, c_black, 1);
 
-draw_text(room_width/2, room_height - 100, BottomText);
+draw_text_color(room_width/2, room_height - 100, BottomText, c_navy, c_navy, c_black, c_black, 1);
