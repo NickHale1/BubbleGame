@@ -7,10 +7,10 @@ for (i = 0; i < 4; i++) {
 	if player.player_active and gamepad_button_check_pressed(player.controller_id, gp_face1) {
 		if matchComplete {
 			if i == global.winningPlayer {
-				
+				room_goto(room_Lobby);
 			}
 		} else {
-			
+			room_goto(global.getRandomMap());
 		}
 	}
 }

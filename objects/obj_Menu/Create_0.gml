@@ -17,7 +17,7 @@ enum winCons{
 global.activeWinCon =
 {
 	type: winCons.Rounds,
-	value: 2,
+	value: 10,
 
 }
 
@@ -26,6 +26,14 @@ global.winningPlayer = -1;
 global.totalRoundsPlayed = -1;
 
 
+
+global.getRandomMap = function() 
+{
+ return choose(Basic, Clover, Dogbone, Domino_Five, Dominos, Donut, 
+			Donut_Circle, Football, FourCorners, FourCorners_Circle, lmaoo, MathSymbols,
+			NeopolitanH, NeopolitanV, PictureFrame, Rink, Spade, Strip)	
+
+}
 
 
 	
